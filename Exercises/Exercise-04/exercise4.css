@@ -1,0 +1,50 @@
+.blues {
+  animation: bgcolor 10s infinite;
+}
+@keyframes bgcolor {
+  0%, 100% {
+    background-color: aliceblue;
+  }
+  50% {
+    background-color: powderblue;
+  }
+}
+.container{
+	width: 50%;
+	height: 600px;
+	display: inline-block;
+}
+.yellow1{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-color: yellow;
+	animation: yellow1 8s infinite;
+	display: inline-block;
+}
+@keyframes yellow1{
+	0%, 100% {
+    background-color: yellow;
+    transform: scale3d(1,1,1);
+    transform: translate(0px,600px);    
+  }
+  50% {
+    background-color: lightyellow;
+    transform: scale3d(.25, .25, 1);
+  }
+}
+.yellow2{
+	width: 400px;
+	height: 400px;
+	background-color: #ffcf00;
+	animation: yellow2 6s infinite;
+
+}
+@keyframes yellow2{
+	0%,100%{
+		opacity: .95;
+	}
+	50%{
+		opacity: .25;
+	}
+}

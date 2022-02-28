@@ -1,16 +1,26 @@
 .month{
 	font-size: 200px;
 	font-family: monospace;
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.time{
+	font-size: 45px;
+	font-family: monospace;
+	text-align: center;
 }
 
-.year{
-	font-size: 100px;
-	display: inline-block;
-	text-align: right;
+.containerbig{
+	margin-top: 100px;
+	position: absolute;
+	top: 300px;
+	width:60%;
+	margin-left: 300px;
 }
-
 .container1{
+width: 100%;
 display: flex;
 font-size: 100px;
 font-family: monospace;
@@ -18,8 +28,8 @@ flex-flow: row wrap;
 }
 
 #size-1 {
+width: 400px;
 font-size: 200px;
-flex: 2;
 text-align: center;
 border: dotted black 1px;
 }
@@ -36,7 +46,7 @@ border: dotted black 1px;
 		background-color: white;
 	}
 	50%{
-		border: dashed black 30px;
+		border: dashed black 100px;
 		background-color: lightgray;
 	}
 }
@@ -52,9 +62,11 @@ border: dotted black 1px;
 @keyframes size-3{
 	0%,100%{
 		background-color: black;
+		font-size: 300px;
 	}
 	50%{
 		background-color: #c6dfff;
+		font-size: 50px;
 	}
 }
 

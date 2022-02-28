@@ -1,0 +1,68 @@
+.month{
+	font-size: 200px;
+	font-family: monospace;
+	display: inline-block;
+}
+
+.year{
+	font-size: 100px;
+	display: inline-block;
+	text-align: right;
+}
+
+.container1{
+display: flex;
+font-size: 100px;
+font-family: monospace;
+flex-flow: row wrap;
+}
+
+#size-1 {
+font-size: 200px;
+flex: 2;
+text-align: center;
+border: dotted black 1px;
+}
+#size-2{
+	font-size: 100px;
+	flex: 1;
+	text-align: center;
+	border: dashed black 4px;
+	animation: size-2 20s infinite;
+}
+@keyframes size-2{
+0%,100%{
+		border: dashed black 4px;
+		background-color: white;
+	}
+	50%{
+		border: dashed black 30px;
+		background-color: lightgray;
+	}
+}
+#size-3{
+	font-size: 50px;
+	flex: 2;
+	text-align: center;
+	border: dotted white; 5px;
+	background-color: black;
+	color: white;
+	animation: size-3 10s infinite;
+}
+@keyframes size-3{
+	0%,100%{
+		background-color: black;
+	}
+	50%{
+		background-color: #c6dfff;
+	}
+}
+
+#size-4{
+	font-size: 150px;
+	flex: 2;
+	text-align: center;
+	border: dashed; white; 10px;
+	background-color: black;
+	color: white;
+}

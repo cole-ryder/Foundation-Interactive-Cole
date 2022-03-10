@@ -1,16 +1,23 @@
 
 .container{
-	width: 110px;
+	width: 100%;
 	height: 170px;
 	margin: 20px;
-
-
+	display: inline-block;
 }
+
+.container > div{
+	display: inline-block;
+	width: 140px;
+	height: 170px;
+	position: relative;
+}
+
 .A{
 	width: 140px;
 	height: 170px;
 	position: relative;
-
+	
 }
 
 .Avertical{
@@ -63,6 +70,7 @@
 	width: 140px;
 	height: 170px;
 	position: relative;
+	
 
 }
 .Bvertical{
@@ -132,6 +140,7 @@
 	width: 140px;
 	height: 170px;
 	position: relative;
+	
 }
 
 .Cvertical{
@@ -182,12 +191,12 @@
 
 .Crightbottom{
 	width: 10px;
-	height: 20px;
+	height: 10px;
 	background-color: black;
 	position: absolute;
 	margin:  -2px;
 	left: 60px;
-    top: 110px;
+    top: 120px;
 }
 
 .D{
@@ -223,3 +232,689 @@
     top: 120px;
 }
 
+.E{
+	width: 140px;
+	height: 170px;
+	position: relative;
+}
+
+.Emiddle{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 10px;
+    top: 80px;
+}
+
+.Gbottomvertical{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+    top: 80px;
+}
+
+.Gmiddle{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 30px;
+    top: 80px;
+}
+
+.Hvertical{
+	width: 10px;
+	height: 140px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+}
+
+.Hrightvertical{
+	width: 10px;
+	height: 140px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 50px;
+}
+
+.Itop{
+	width: 70px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+}
+
+.Ivertical{
+	width: 10px;
+	height: 120px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 30px;
+	top: 10px;
+}
+
+.Ibottom{
+	width: 70px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 130px;
+}
+
+.Jleft{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 80px;
+}
+
+.Jbottomleft{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 120px;
+}
+
+.Jbottom{
+	width: 50px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 130px;
+	left: 10px;
+}
+
+.Jvertical{
+	width: 10px;
+	height: 130px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+}
+
+.Jtop{
+	width: 60px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 20px;
+}
+
+.Kstem{
+    width: 50px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 50px;
+}
+
+.Kright{
+	width: 10px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 40px;
+}
+
+.Krightbottom{
+	width: 10px;
+	height: 90px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+	top: 50px;
+}
+
+.Mtopleft{
+	width: 30px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+
+.Mmiddle{
+	width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 40px;
+}
+
+.Mright{
+	width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 50px;
+    top: 10px;
+}
+
+.Mrighttop{
+	width: 30px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 60px;
+}
+
+.Mrightvertical{
+	width: 10px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 80px;
+}
+
+.Nrighttop{
+ 	 width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+.Nmiddle{
+ 	width: 10px;
+    height: 110px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 40px;
+    top: 10px;
+}
+
+.Nsquare{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 40px;
+    top: 120px;
+}
+.Nsquare2{
+	width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 60px;
+    top: 130px;
+}
+
+.Nrightvertical{
+	width: 10px;
+    height: 130px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 70px;   
+}
+
+.Overtical{
+	width: 10px;
+	height: 100px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 20px;  
+}
+
+.Otopleft{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 10px;  
+}
+
+.Obottom{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 130px;
+	left: 10px;
+}
+
+.Pright{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 10px;
+	left: 60px;
+}
+
+.Pmiddleone{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 50px;
+	left: 20px;
+}
+
+.Pmiddletwo{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	top: 60px;
+	left: 10px;
+}
+
+.Qbottomright{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 50px;
+    top: 120px;
+}
+
+.Qbottomright2{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 70px;
+    top: 130px;
+}
+
+.Rrighttop{
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+
+.Sone{
+	 width: 10px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 60px;
+    top: 10px;
+}
+
+.Stwo{
+	width: 10px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 20px;
+}
+
+.Sthree{
+	width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 70px;
+    left: 20px;
+}
+
+.Sfour{
+	width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 80px;
+    left: 10px;
+}
+
+.Sfive{
+	width: 10px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 80px;
+    left: 60px;
+}
+
+.Ssix{
+	width: 50px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 130px;
+    left: 10px;
+}
+
+.Sseven{
+	width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 100px;
+}
+
+.Tvertical{
+	width: 10px;
+	height: 130px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 30px;
+	top: 10px;
+}
+
+.Uvertical{
+	width: 10px;
+	height: 120px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+}
+
+.Uright{
+	width: 10px;
+	height: 120px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 60px;
+}
+
+.Vbottom{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 130px;
+    left: 10px;
+}
+
+.V3{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 120px;
+    left: 40px;
+}
+
+.V4{
+	width: 10px;
+	height: 120px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 50px;
+}
+
+.W1{
+	width: 10px;
+	height: 40px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 90px;
+    left: 50px;
+}
+
+.W2{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 130px;
+    left: 50px;
+}
+
+.W3{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 120px;
+    left: 80px;
+}
+
+.W4{
+	width: 10px;
+	height: 130px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 90px;
+}
+
+.X1{
+	width: 10px;
+	height: 60px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+   	top: 80px;
+}
+
+.X2{
+	width: 10px;
+	height: 60px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+}
+
+.X3{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 70px;
+}
+
+.X4{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+    top: 60px;
+}
+
+.X5{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 50px;
+    top: 70px;
+}
+
+.X6{
+	width: 10px;
+	height: 60px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 60px;
+}
+
+.X7{
+	width: 10px;
+	height: 60px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 80px;
+    left: 60px;
+}
+
+.Y1{
+	width: 10px;
+	height: 70px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+}
+
+.Y2{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 70px;
+}
+
+.Y3{
+	width: 40px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+}
+
+.Y4{
+	width: 10px;
+	height: 30px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 100px;
+}
+
+.Z1{
+	width: 10px;
+	height: 20px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+}
+
+.Z2{
+	width: 60px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+}
+
+.Z3{
+	width: 10px;
+	height: 50px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 70px;
+    top: 10px;
+}
+
+.Z4{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 50px;
+    top: 60px;
+}
+
+.Z5{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 30px;
+    top: 70px;
+}
+
+.Z6{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 80px;
+}
+
+.Z7{
+	width: 10px;
+	height: 50px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 80px;
+}
+
+.Z8{
+	width: 70px;
+	height: 10px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 130px;
+    left: 10px;
+}
+
+.Z9{
+	width: 10px;
+	height: 30px;
+	background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 110px;
+    left: 70px;
+}

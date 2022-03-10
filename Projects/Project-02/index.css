@@ -1,0 +1,225 @@
+
+.container{
+	width: 110px;
+	height: 170px;
+	margin: 20px;
+
+
+}
+.A{
+	width: 140px;
+	height: 170px;
+	position: relative;
+
+}
+
+.Avertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+}
+
+.Alefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+}
+
+.Arighttop{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+
+.Arightvertical{
+    width: 10px;
+    height: 130px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 10px;
+    left: 50px;
+}
+.Astem{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 50px;
+}
+
+.B{
+	width: 140px;
+	height: 170px;
+	position: relative;
+
+}
+.Bvertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+}
+.Blefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+}
+
+.Brighttop{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+.Brighttopvertical{
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 50px;
+    top: 10px;
+}
+.Bmiddle{
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 50px;
+}
+.Brightbottomvertical{
+	width: 10px;
+    height: 90px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 70px;
+    top: 50px;
+}
+
+.Bbottom{
+	width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+}
+
+.C{
+	width: 140px;
+	height: 170px;
+	position: relative;
+}
+
+.Cvertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+}
+
+.Clefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+}
+
+.Crighttop{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+}
+.Crightvertical{
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 10px;
+    left: 50px;
+}
+
+.Cbottom{
+	width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+}
+
+.Crightbottom{
+	width: 10px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+    top: 110px;
+}
+
+.D{
+	width: 140px;
+	height: 170px;
+	position: relative;
+}
+.Dright{
+	width: 10px;
+	height: 110px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+    top: 10px;
+}
+.Dbottom{
+	width: 50px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+}
+.Dbottomright{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 50px;
+    top: 120px;
+}
+

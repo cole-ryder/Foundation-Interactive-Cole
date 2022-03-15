@@ -1,10 +1,11 @@
 
+
 .container{
 	width: 60%;
 	height: 170px;
 	margin: 20px;
 	display: inline-block;
-	margin-top: 400px;
+	margin-top: 100px;
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: center;
@@ -19,12 +20,32 @@
 	position: relative;
 }
 
+.angelfuck{
+	position: fixed;
+ 	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: fixed;
+  font-size: 16px;
+}
+
 .A{
 	width: 140px;
 	height: 170px;
 	position: relative;
-	
 }
+  	
 
 .Avertical{
 	width: 10px;
@@ -33,6 +54,8 @@
     position: absolute;
     top: 20px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 3s;
 }
 
 .Alefttop{
@@ -42,6 +65,8 @@
     position: absolute;
     top: 10px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 3s;
 }
 
 .Arighttop{
@@ -51,6 +76,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 3s;
 }
 
 .Arightvertical{
@@ -61,6 +88,8 @@
     margin:  -2px;
     top: 10px;
     left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 3s;
 }
 .Astem{
     width: 40px;
@@ -70,12 +99,15 @@
     margin:  -2px;
     left: 10px;
     top: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 3s;
 }
 
 .B{
 	width: 140px;
 	height: 170px;
 	position: relative;
+	
 	
 
 }
@@ -86,6 +118,8 @@
     position: absolute;
     top: 20px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Blefttop{
 	width: 20px;
@@ -94,6 +128,8 @@
     position: absolute;
     top: 10px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Brighttop{
@@ -103,6 +139,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Brighttopvertical{
     width: 10px;
@@ -112,6 +150,8 @@
     margin:  -2px;
     left: 50px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Bmiddle{
     width: 60px;
@@ -121,6 +161,8 @@
     margin:  -2px;
     left: 10px;
     top: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Brightbottomvertical{
 	width: 10px;
@@ -130,6 +172,8 @@
     margin:  -2px;
     left: 70px;
     top: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Bbottom{
@@ -140,6 +184,8 @@
     margin:  -2px;
     left: 10px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .C{
@@ -156,6 +202,8 @@
     position: absolute;
     top: 20px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Clefttop{
@@ -165,6 +213,8 @@
     position: absolute;
     top: 10px;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Crighttop{
@@ -174,6 +224,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Crightvertical{
     width: 10px;
@@ -183,6 +235,8 @@
     margin:  -2px;
     top: 10px;
     left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Cbottom{
@@ -193,6 +247,8 @@
     margin:  -2px;
     left: 10px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Crightbottom{
@@ -203,6 +259,8 @@
 	margin:  -2px;
 	left: 60px;
     top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .D{
@@ -218,6 +276,8 @@
 	margin:  -2px;
 	left: 60px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Dbottom{
 	width: 50px;
@@ -227,6 +287,8 @@
     margin:  -2px;
     left: 10px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 .Dbottomright{
 	width: 20px;
@@ -236,12 +298,37 @@
 	margin:  -2px;
 	left: 50px;
     top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .E{
 	width: 140px;
 	height: 170px;
 	position: relative;
+	animation: name;
+}
+.Erightbottom{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+    top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
+}
+.Ebottom{
+	width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
 }
 
 .Emiddle{
@@ -252,6 +339,91 @@
 	margin:  -2px;
 	left: 10px;
     top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
+}
+
+.Evertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
+}
+
+.Elefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
+}
+
+.Erighttop{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 6s;
+}
+
+.Fmiddle{
+
+	width: 40px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 10px;
+    top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
+}
+
+.Grightvertical{
+	width: 10px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    top: 10px;
+    left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
+
+}
+
+.Gbottom{
+	width: 50px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
+}
+
+.Gbottomright{
+	width: 20px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 50px;
+    top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
 }
 
 .Gbottomvertical{
@@ -262,6 +434,8 @@
 	margin:  -2px;
 	left: 60px;
     top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
 }
 
 .Gmiddle{
@@ -272,6 +446,41 @@
 	margin:  -2px;
 	left: 30px;
     top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
+}
+
+.Gvertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
+}
+
+.Glefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
+}
+
+.Grighttop{
+    width: 40px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 5s;
 }
 
 .Hvertical{
@@ -280,6 +489,8 @@
 	background-color: black;
 	position: absolute;
 	margin:  -2px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Hrightvertical{
@@ -289,6 +500,8 @@
 	position: absolute;
 	margin:  -2px;
 	left: 50px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Itop{
@@ -297,6 +510,8 @@
 	background-color: black;
 	position: absolute;
 	margin:  -2px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Ivertical{
@@ -307,6 +522,8 @@
 	margin:  -2px;
 	left: 30px;
 	top: 10px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Ibottom{
@@ -316,6 +533,8 @@
 	position: absolute;
 	margin:  -2px;
 	top: 130px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Jleft{
@@ -325,6 +544,8 @@
 	position: absolute;
 	margin:  -2px;
 	top: 80px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Jbottomleft{
@@ -334,6 +555,8 @@
 	position: absolute;
 	margin:  -2px;
 	top: 120px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Jbottom{
@@ -344,6 +567,8 @@
 	margin:  -2px;
 	top: 130px;
 	left: 10px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Jvertical{
@@ -353,6 +578,8 @@
 	position: absolute;
 	margin:  -2px;
 	left: 60px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Jtop{
@@ -362,6 +589,8 @@
 	position: absolute;
 	margin:  -2px;
 	left: 20px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Kstem{
@@ -372,6 +601,8 @@
     margin:  -2px;
     left: 10px;
     top: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Kright{
@@ -381,6 +612,8 @@
 	position: absolute;
 	margin:  -2px;
 	left: 40px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Krightbottom{
@@ -391,7 +624,45 @@
 	margin:  -2px;
 	left: 60px;
 	top: 50px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
+
+.Lbottom{
+	width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    margin:  -2px;
+    left: 10px;
+    top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 7s;
+}
+
+.Lrightbottom{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	left: 60px;
+    top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 7s;
+}
+
+.Lvertical{
+	width: 10px;
+	height: 140px;
+	background-color: black;
+	position: absolute;
+	margin:  -2px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 7s;
+}
+
+
 
 .Mtopleft{
 	width: 30px;
@@ -400,6 +671,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Mmiddle{
@@ -409,6 +682,8 @@
     position: absolute;
     margin:  -2px;
     left: 40px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Mright{
@@ -419,6 +694,8 @@
     margin:  -2px;
     left: 50px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Mrighttop{
@@ -428,6 +705,8 @@
     position: absolute;
     margin:  -2px;
     left: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Mrightvertical{
@@ -437,6 +716,8 @@
     position: absolute;
     margin:  -2px;
     left: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Nrighttop{
@@ -446,6 +727,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
 }
 .Nmiddle{
  	width: 10px;
@@ -455,6 +738,8 @@
     margin:  -2px;
     left: 40px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
 }
 
 .Nsquare{
@@ -465,6 +750,8 @@
     margin:  -2px;
     left: 40px;
     top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
 }
 .Nsquare2{
 	width: 10px;
@@ -474,6 +761,8 @@
     margin:  -2px;
     left: 60px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
 }
 
 .Nrightvertical{
@@ -483,6 +772,29 @@
     position: absolute;
     margin:  -2px;
     left: 70px;   
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
+}
+.Nvertical{
+	width: 10px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
+}
+
+.Nlefttop{
+	width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 4s;
 }
 
 .Overtical{
@@ -492,6 +804,8 @@
     position: absolute;
     margin:  -2px;
     top: 20px;  
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Otopleft{
@@ -501,6 +815,8 @@
     position: absolute;
     margin:  -2px;
     top: 10px;  
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Obottom{
@@ -511,6 +827,8 @@
 	margin:  -2px;
 	top: 130px;
 	left: 10px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Pright{
@@ -521,6 +839,8 @@
 	margin:  -2px;
 	top: 10px;
 	left: 60px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Pmiddleone{
@@ -531,6 +851,8 @@
 	margin:  -2px;
 	top: 50px;
 	left: 20px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Pmiddletwo{
@@ -541,6 +863,8 @@
 	margin:  -2px;
 	top: 60px;
 	left: 10px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Qbottomright{
@@ -551,6 +875,8 @@
 	margin:  -2px;
 	left: 50px;
     top: 120px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Qbottomright2{
@@ -561,6 +887,8 @@
 	margin:  -2px;
 	left: 70px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Rrighttop{
@@ -570,6 +898,8 @@
     position: absolute;
     margin:  -2px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Sone{
@@ -580,6 +910,8 @@
     margin:  -2px;
     left: 60px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Stwo{
@@ -589,6 +921,8 @@
     position: absolute;
     margin:  -2px;
     top: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Sthree{
@@ -599,6 +933,8 @@
     margin:  -2px;
     top: 70px;
     left: 20px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Sfour{
@@ -609,6 +945,8 @@
     margin:  -2px;
     top: 80px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Sfive{
@@ -619,6 +957,8 @@
     margin:  -2px;
     top: 80px;
     left: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Ssix{
@@ -629,6 +969,8 @@
     margin:  -2px;
     top: 130px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Sseven{
@@ -638,6 +980,8 @@
     position: absolute;
     margin:  -2px;
     top: 100px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Tvertical{
@@ -648,6 +992,8 @@
 	margin:  -2px;
 	left: 30px;
 	top: 10px;
+	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Uvertical{
@@ -656,6 +1002,8 @@
 	background-color: black;
     position: absolute;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Uright{
@@ -665,6 +1013,8 @@
     position: absolute;
     margin:  -2px;
     left: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Vbottom{
@@ -675,6 +1025,8 @@
     margin:  -2px;
     top: 130px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .V3{
@@ -685,6 +1037,8 @@
     margin:  -2px;
     top: 120px;
     left: 40px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .V4{
@@ -694,6 +1048,8 @@
     position: absolute;
     margin:  -2px;
     left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .W1{
@@ -704,6 +1060,8 @@
     margin:  -2px;
     top: 90px;
     left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .W2{
@@ -714,6 +1072,8 @@
     margin:  -2px;
     top: 130px;
     left: 50px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .W3{
@@ -724,6 +1084,8 @@
     margin:  -2px;
     top: 120px;
     left: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .W4{
@@ -733,6 +1095,8 @@
     position: absolute;
     margin:  -2px;
     left: 90px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X1{
@@ -742,6 +1106,8 @@
     position: absolute;
     margin:  -2px;
    	top: 80px;
+   	animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X2{
@@ -751,6 +1117,8 @@
     position: absolute;
     margin:  -2px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X3{
@@ -761,6 +1129,8 @@
     margin:  -2px;
     left: 10px;
     top: 70px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X4{
@@ -771,6 +1141,8 @@
     margin:  -2px;
     left: 20px;
     top: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X5{
@@ -781,6 +1153,8 @@
     margin:  -2px;
     left: 50px;
     top: 70px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X6{
@@ -790,6 +1164,8 @@
     position: absolute;
     margin:  -2px;
     left: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .X7{
@@ -800,6 +1176,8 @@
     margin:  -2px;
     top: 80px;
     left: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Y1{
@@ -808,6 +1186,8 @@
 	background-color: black;
     position: absolute;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Y2{
@@ -818,6 +1198,8 @@
     margin:  -2px;
     left: 10px;
     top: 70px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Y3{
@@ -828,6 +1210,8 @@
     margin:  -2px;
     left: 10px;
     top: 130px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Y4{
@@ -837,6 +1221,8 @@
     position: absolute;
     margin:  -2px;
     top: 100px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z1{
@@ -845,6 +1231,8 @@
 	background-color: black;
     position: absolute;
     margin:  -2px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z2{
@@ -854,6 +1242,8 @@
     position: absolute;
     margin:  -2px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z3{
@@ -864,6 +1254,8 @@
     margin:  -2px;
     left: 70px;
     top: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z4{
@@ -874,6 +1266,8 @@
     margin:  -2px;
     left: 50px;
     top: 60px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z5{
@@ -884,6 +1278,8 @@
     margin:  -2px;
     left: 30px;
     top: 70px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z6{
@@ -894,6 +1290,8 @@
     margin:  -2px;
     left: 10px;
     top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z7{
@@ -903,6 +1301,8 @@
     position: absolute;
     margin:  -2px;
     top: 80px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z8{
@@ -913,6 +1313,8 @@
     margin:  -2px;
     top: 130px;
     left: 10px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
 }
 
 .Z9{
@@ -923,4 +1325,22 @@
     margin:  -2px;
     top: 110px;
     left: 70px;
+    animation: lettercolor 100s infinite;
+    animation-delay: 10s;
+}
+
+
+@keyframes lettercolor{
+	0%,8%,16%,24%,32%,40%,48%,56%,64%,72%,80%,88%,96%{
+		background-color: red;
+	}
+	2%,10%,18%,26%,34%,42%,50%,58%,66%,74%,82%,90%,98%{
+		background-color: blue;
+	}
+	4%,12%,20%,28%,36%,44%,52%,60%,68%,76%,84%,92%,100%{
+		background-color: yellow;
+	}
+	6%,14%,22%,30%,38%,46%,54%,62%,70%,78%,86%{
+		background-color: green;
+	}
 }

@@ -1,0 +1,87 @@
+.dog{
+	width: 100%;
+	height: auto;
+}
+
+body{
+	font-size: 100px;
+	font-family: sans-serif;
+	background-color: salmon;
+}
+
+
+.desktop{
+   display:block;
+  }
+
+ .tablet{
+  display:none;
+ }
+
+ .mobile{
+  display:none;
+ }
+
+ 	p{
+		font-size: 1em;
+		margin-top: 80px;
+		margin-left: 600px;
+	}
+
+
+
+@media screen 
+and (min-width:  768px) 
+and (max-width: 1024px) 
+and (orientation: landscape){
+	
+
+.desktop{
+   display:none;
+  }
+
+ .tablet{
+  display:block;
+ }
+
+ .mobile{
+  display:none;
+ }
+
+	p{
+		font-size: 75px;
+		font-family: sans-serif;
+		
+	}
+
+	body{
+		background-color: whitesmoke;
+	}
+
+} 
+
+@media screen and (max-width: 768px){
+
+.desktop{
+   display:none;
+  }
+
+.tablet{
+  display:none;
+ }
+
+ .mobile{
+  display:block;
+ }
+
+	p{
+		font-size: 50px;
+		font-family: sans-serif;
+		
+	}
+
+	body{
+		background-color: yellow;
+	}
+
+}

@@ -1,0 +1,87 @@
+.body{
+	background-color: 00000;
+	height: 3000px;
+}
+
+.rightarrow{
+	width: 200px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+}
+.orb2{
+	width: 10%;
+	position: absolute;
+	left: 50%;
+	animation: orb2 300s;
+	top: 350px;
+}
+
+.exmilitary{
+	width: 20%;
+	top: 50px;
+	position: absolute;
+	left: 150px;
+	top: 1000px;
+	animation: exmilitarySize 100s;
+	border-radius: 100%;
+}
+.gardner{
+	width: 20%;
+	position: absolute;
+	top: 400px;
+	left: 100px;
+}
+.ghost{
+	width: 15%;
+	position: absolute;
+	top: 550px;
+	left: 900px;
+	animation: ghostmove 30s infinite;
+}
+
+@keyframes ghostmove{
+	0%{
+		top: 550px;
+		transform: scale(.001);
+	}
+	50%{
+		top: 250px;
+		transform: scale(.4);
+	}
+	65%{
+		top: 300px;
+	}
+	75%{
+		top: 200px;
+	}
+	100%{
+		transform: scale(1.0);
+	}
+
+}
+@keyframes orb2{
+	0%{
+		transform: scale(.001);
+		top: 100px;
+	}
+	5%{
+		transform: scale(2);
+		top: 100px;
+		opacity: 1;
+		transform: skew(10deg);
+	}
+	10%,30%,50%{ 
+		transform: scale(1.0);
+		opacity: 2;
+		transform: skew(40deg);
+	}
+	20%,40%,60%,80%{
+		opacity: 1;
+		transform: skew(100deg);
+	}
+	100%{
+		top: 5000px;
+		
+	}
+}

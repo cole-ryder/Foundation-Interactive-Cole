@@ -1,0 +1,42 @@
+.littlewizard{
+	width: 200px;
+	height: 200px;
+	border: yellow dotted 20px;
+	border-radius: 100%;
+	display: inline-block;
+}
+.narration{
+	width: 40%;
+	font-family: monospace;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.directions{
+	width: 40%;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: red;
+	background-color: whitesmoke;
+	display: inline-block;
+	padding: 20px;
+}
+
+.drop{
+	height: 600px;
+	background-color: blue;
+	display: inline-block;
+}
+
+.change {
+width: 10px;
+height: 10px;
+display: inline-block;
+}
+
+
+.after {
+width: 400px;
+height: 400px;
+display: inline-block;
+}

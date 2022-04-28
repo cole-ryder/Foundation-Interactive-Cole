@@ -12,7 +12,7 @@
 	width: 10%;
 	position: absolute;
 	left: 50%;
-	animation: orb2 300s;
+	animation: orb2 200s;
 	top: 350px;
 }
 
@@ -22,14 +22,15 @@
 		top: 100px;
 	}
 	5%{
-		transform: scale(2);
+		
 		top: 100px;
 		opacity: 1;
-		transform: skew(10deg);
+		transform: skew(10deg) scale(3);;
+		
 	}
 	10%,30%,50%{ 
 		transform: scale(1.0);
-		opacity: 2;
+		opacity: 1;
 		transform: skew(40deg);
 	}
 	20%,40%,60%,80%{
@@ -47,16 +48,18 @@
 	top: 50px;
 	position: absolute;
 	left: 150px;
-	top: 1000px;
+	top: 800px;
 	animation: exmilitarySize 100s;
 	border-radius: 100%;
+	animation: head1 60s infinite;
+	animation-delay: 30s;
 }
 .gardner{
 	width: 20%;
 	position: absolute;
 	top: 400px;
 	left: 100px;
-	animation: gardner 100s infinite;
+	animation: gardner 120s infinite;
 }
 @keyframes gardner{
 	0%, 100%{
@@ -100,7 +103,7 @@
 	}
 	50%{
 		top: 250px;
-		transform: scale(.4);
+		transform: scale(.7);
 	}
 	65%{
 		top: 300px;
@@ -115,6 +118,7 @@
 }
 
 .craiggreen{
+	width: 100%;
 	position: absolute;
 	top: 1000px;
 	left: 500px;
@@ -134,16 +138,98 @@
 .pyramid{
 	width: 40%;
 	position: absolute;
-	left: 50%;
+	left: 40%;
 	top: 1200px;
 	animation: pyramid 60s infinite;
 }
 
 @keyframes pyramid{
-	0%{
+	0%,100%{
 		filter: hue-rotate(0deg);
 	}
-	100%{
+	99%{
 		filter: hue-rotate(360deg);
 	}
 }
+
+.craiggreen2{
+	width: 30%;
+	position: absolute;
+	left: 200px;
+	top: 1300px;
+	animation: craiggreen2 15s infinite;
+}
+
+@keyframes craiggreen2{
+	0%,100%{
+		transform: rotate(0deg);
+	}
+
+	50%{
+		transform: rotate(-180deg);
+	}
+}
+
+.clown{
+	position: absolute;
+	width: 30%;
+	top: 2400px;
+	left: 1000px;
+}
+
+.stereo{
+	position: absolute;
+	width: 30%;
+	top: 2600px;
+	left: 500px;
+}
+
+.doctor{
+	position: absolute;
+	width: 40%;
+	top: 2800px;
+	left: 50px;
+	animation: doctor 30s infinite;
+}
+.apple{
+	position: absolute;
+	width: 90%;
+	top: 3000px;
+	left: 100px;
+}
+.weird{
+	position: absolute;
+	width: 40%;
+	top: 4600px;
+	left: 600px;
+}
+
+@keyframes doctor{
+
+	0%,100%{
+		top: 2800px;
+		opacity: 1;
+		filter: brightness(1);
+	}
+
+	20%{
+		top: 2600px;
+		opacity: .35;
+		filter: brightness(3);
+	}
+
+	25%{ top: 2900px;
+	}
+	35%{ top: 2700px; 
+		opacity: .2;
+		filter: brightness(2);}
+	50% { top: 2800px;
+		opacity: .75;
+		filter: brightness(1.5); }
+	75% { top: 2500px; 
+		opacity: .55;
+		filter: brightness(2
+		}
+	85% { top: 3000px; }
+}
+

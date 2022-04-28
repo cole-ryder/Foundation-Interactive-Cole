@@ -200,8 +200,15 @@
 .weird{
 	position: absolute;
 	width: 40%;
-	top: 4600px;
+	top: 4700px;
 	left: 600px;
+}
+
+.skeleton{
+	position: absolute;
+	width: 40%;
+	top: 4900px;
+	left: 100px;
 }
 
 @keyframes doctor{
@@ -232,4 +239,5 @@
 		}
 	85% { top: 3000px; }
 }
+
 

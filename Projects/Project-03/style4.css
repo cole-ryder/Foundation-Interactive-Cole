@@ -12,7 +12,7 @@
 	width: 10%;
 	position: absolute;
 	left: 50%;
-	animation: orb2 200s;
+	animation: orb2 150s;
 	top: 350px;
 }
 
@@ -210,6 +210,15 @@
 	top: 4900px;
 	left: 100px;
 }
+
+.evileye{
+	width: 30%;
+	position: absolute;
+	width: 40%;
+	top: 5600px;
+	left: 900px;
+}
+
 
 @keyframes doctor{
 

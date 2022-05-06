@@ -1,0 +1,29 @@
+.blue-border{
+	width: 100px;
+	height: 100px;
+	border: blue dotted 5px;
+	border-radius: 100%;
+	cursor: zoom-out;
+	display: inline-block;
+	
+}
+
+.drop{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	display: inline-block;
+}
+
+.change {
+width: 400px;
+height: 200px;
+background-color: darkred;
+}
+
+
+.after {
+width: 100px;
+height: 400px;
+background-color: green;
+}

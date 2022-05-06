@@ -19,6 +19,7 @@
 width: 400px;
 height: 200px;
 background-color: darkred;
+display: inline-block;
 }
 
 
@@ -26,4 +27,5 @@ background-color: darkred;
 width: 100px;
 height: 400px;
 background-color: green;
+cursor: crosshair;
 }

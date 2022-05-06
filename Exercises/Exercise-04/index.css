@@ -3,14 +3,14 @@
 }
 @keyframes bgcolor {
   0%, 100% {
-    background-color: aliceblue;
+    background-color: black;
   }
   50% {
-    background-color: powderblue;
+    background-color: green;
   }
 }
 .container{
-	width: 45%;
+	width: 55%;
 	height: 600px;
 	display: inline-block;
 
